@@ -45,11 +45,11 @@ repositories {
 }
 dependencies {
     if (gradleNumberVersion >= 3.4f) {
-        implementation "com.google.firebase:firebase-core:${FCM_CORE_VERSION}"
-        implementation "com.google.firebase:firebase-messaging:${FCM_VERSION}"
+        implementation "com.google.firebase:firebase-core:15.+"
+        implementation "com.google.firebase:firebase-messaging:15.+"
     } else {
-        compile "com.google.firebase:firebase-core:${FCM_CORE_VERSION}"
-        compile "com.google.firebase:firebase-messaging:${FCM_VERSION}"
+        compile "com.google.firebase:firebase-core:15.+"
+        compile "com.google.firebase:firebase-messaging:15.+"
     }
 }
 // apply plugin: 'com.google.gms.google-services'
